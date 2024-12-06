@@ -1,8 +1,6 @@
 public class OperatorFactory {
-    private int operation;
-    public OperatorFactory(){
+    public OperatorFactory() {
     }
-
     public Operator getOperator(int operation) throws InvalidOperatorException{
         if (operation == 1) {
             return new Addition();
