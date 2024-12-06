@@ -2,7 +2,6 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
-
     public static <calculator> void main(String[] args) {
             System.out.println(" 1. Addition \n 2. Subtraction \n 3. Multiplication  \n 4. Division ");
             System.out.print("Select the number relevant to the calculation:");
